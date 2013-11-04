@@ -1,0 +1,28 @@
+.block {
+  height: 200px;
+  border: 1px black dotted;
+}
+
+.block-idle {
+  background-color: #34495e;
+}
+
+.block-active {
+  background-color: #16a085;
+}
+
+.block-selected {
+  background-color: #1abc9c;
+}
+
+.block-expand:hover {
+  background-color: #eeeeee;
+}
+
+.block-left {
+  background: -webkit-linear-gradient(left, #f5f2b6 0%, #eeeeee 20%);
+}
+
+.block-right {
+  background: -webkit-linear-gradient(right, #f5f2b6 0%, #eeeeee 20%);
+}
