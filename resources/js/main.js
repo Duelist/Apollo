@@ -15,9 +15,7 @@
 
       var class_list = (_.isArray(_class)) ? _class.join(' ') : _class;
 
-      return function () {
-        return $(['<', element, '>'].join(''), { 'class': class_list });
-      }
+      return $(['<', element, '>'].join(''), { 'class': class_list });
     }
   }
 
@@ -35,10 +33,8 @@
       var classes,
           createDiv = createDomElement('div');
 
-      console.log(_.isArray(block_view));
-
       if (_.isArray(block_view)) {
-        classes = _.map(block_view, function (x) { return ['col', block_view, block_size].join('-'); });
+        classes = _.map(block_view, function (x) { return ['col', x, block_size].join('-'); });
       } else {
         classes = [['col', block_view, block_size].join('-')];
       }
