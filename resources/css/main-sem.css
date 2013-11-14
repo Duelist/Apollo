@@ -1,0 +1,24 @@
+.block {
+  color: #ffffff;
+  border: 1px black dotted;
+}
+
+.block-idle {
+  background-color: #34495e;
+}
+
+.block-active {
+  background-color: #16a085;
+}
+
+.block-selected {
+  background-color: #1abc9c;
+}
+
+.block-expand:hover {
+  background-color: #eeeeee;
+}
+
+.placeholder {
+	height: 100px;
+}
