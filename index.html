@@ -3,33 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bower_components/semantic/build/packaged/css/semantic.min.css" rel="stylesheet" media="screen">
     <link href="resources/css/main.css" rel="stylesheet" media="screen">
     <title>Hello World</title>
   </head>
   <body>
-    <div class="container debug">
-      <div class="row">
-        <div class="col-md-6">Hello world.</div>
-        <div class="col-md-6 add-row">Add Row</div>
+    <div class="ui middle aligned grid debug">
+      <div class="ten wide column">Debug</div>
+      <div class="six wide column">
+        <button class="ui right floated teal button add-row">Add Row</button>
+        <button class="ui right floated red button split">Split</button>
       </div>
     </div>
-    <div class="container workspace">
-      <div class="row">
-        <div class="col-md-12 block block-idle">
-          <div class="row">
-            <div class="col-md-1 block-expand">
-              Content
-            </div>
-            <div class="col-md-1 col-md-offset-10 block-expand">
-              Content
-            </div>
-          </div>
-        </div>
-      </div>
+    <br />
+    <div class="ui grid workspace">
     </div>
   </body>
-  <script src="resources/js/jquery.min.js"></script>
-  <script src="resources/js/underscore.min.js"></script>
+  <script src="bower_components/underscore/underscore-min.js"></script>
+  <script src="bower_components/jquery/jquery.min.js"></script>
+  <script src="bower_components/semantic/build/packaged/javascript/semantic.min.js"></script>
   <script src="resources/js/main.js"></script>
 </html>

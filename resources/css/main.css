@@ -1,5 +1,14 @@
+/* Override Semantic UI */
+.ui.grid {
+  margin: 0px;
+}
+
+.workspace {
+  /* width: 680px; */
+}
+
 .block {
-  height: 200px;
+  color: #ffffff;
   border: 1px black dotted;
 }
 
@@ -19,10 +28,10 @@
   background-color: #eeeeee;
 }
 
-.block-left {
-  background: -webkit-linear-gradient(left, #f5f2b6 0%, #eeeeee 20%);
+.placeholder {
+	height: 100px;
 }
 
-.block-right {
-  background: -webkit-linear-gradient(right, #f5f2b6 0%, #eeeeee 20%);
-}
+.split:hover {
+  cursor: pointer;
+};
